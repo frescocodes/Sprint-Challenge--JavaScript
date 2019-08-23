@@ -7,6 +7,17 @@
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
+// function step1 (a, b, cb){
+//   return cb(a, b);
+// }
+
+// let mathTest = function (a, b){
+//   return a + b;
+// }
+
+// step1(5, 3, mathTest());
+
+
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
